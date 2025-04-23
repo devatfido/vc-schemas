@@ -70,21 +70,8 @@ Points to the schema that defines the structure and semantics of the credential.
 
 ```json
 "credentialSchema": {
-  "id": "https://example.com/schemas/liveliness.json",
+  "id": "https://raw.githubusercontent.com/devatfido/vc-schemas/refs/heads/main/LivelinessCredential/v1.0.0/OmnipLivelinessCredential.json",
   "type": "JsonSchemaValidator2020"
-}
-```
-
----
-
-## credentialStatus (optional but recommended)
-
-Contains status information like suspension or revocation of the credential.
-
-```json
-"credentialStatus": {
-  "id": "https://example.com/status/12345",
-  "type": "CredentialStatusList2021"
 }
 ```
 
